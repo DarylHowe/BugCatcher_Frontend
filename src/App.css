@@ -1,38 +1,167 @@
 .App {
   text-align: center;
+  margin: 0px;
+  background-color: rgb(255, 255, 255);
+  min-height: 600px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.loginContainer {
+  margin: auto;
+  margin-top: 80px;
+  padding: 10px;
+  width: 40%;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-image: url("./Assets/Images/Bug.png");
+  background-size: 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.headerContainer {
+  width: 100%;
+  height: 400px;
+  background-color: white;
+  background-attachment: fixed;
+  background-position: 30% 50%;
+  background-repeat: no-repeat;
+  background-image: url("./Assets/Images/Bug.png");
+  background-size: 120px;
+  border-bottom: 1px solid;
+  border-color: rgba(204, 204, 204, 0.671);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar {
+  background-color: rgba(204, 204, 204, 0.671);
+  width: 100%;
+  height: 55px;
 }
 
-.App-link {
-  color: #61dafb;
+.link,
+.linkLogin {
+  text-decoration: none;
+  font-weight: bold;
+  background-color: white;
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 3px;
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.link:hover,
+.linkLogin:hover {
+  background-color: rgb(83, 211, 51);
+}
+
+.linkLogin {
+  background-color: rgb(85, 235, 48);
+}
+
+.homepageContainer {
+  width: 60%;
+  height: 500px;
+  background-color: rgb(209, 209, 209);
+  padding: 20px;
+}
+
+.infoBox {
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  width: 80%;
+  height: 370px;
+  border: solid 1px black;
+  border-radius: 3px;
+  color: rgb(0, 130, 170);
+  padding: 20px;
+}
+
+.infoBox h1 {
+  width: 300px;
+}
+
+.infoBox h3 {
+  color: black;
+}
+
+.projectContainer {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid grey;
+  width: 100%;
+  min-height: 300px;
+}
+
+.viewProjectsContainer {
+  width: 100%;
+  border: 1px solid grey;
+  background-color: rgb(255, 255, 255);
+}
+
+.singleProject {
+  float: left;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  border: 1px solid grey;
+}
+
+.singleProject p {
+  display: inline;
+}
+.projectAttributesTable {
+  font-weight: bold;
+  background-color: rgba(101, 255, 62, 0.644);
+}
+
+table {
+  margin: auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 5px;
+}
+
+th {
+  text-align: left;
+  width: 300px;
+}
+
+td {
+  width: 300px;
+}
+
+.projectID {
+  width: 100px;
+}
+
+.projectTitle {
+  width: 100px;
+}
+
+.deleteProjectButton {
+  background-position: 20% 40%;
+  background-repeat: no-repeat;
+  background-image: url("./Assets/Images/BugDelete.png");
+  background-size: 70px;
+  height: 40px;
+  width: 60px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.newProjectContainer {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid grey;
+  margin-top: 200px;
+}
+
+.footerContainer {
+  background-color: rgba(204, 204, 204, 0.671);
+  width: 100%;
+  height: 170px;
 }
